@@ -232,7 +232,10 @@
   -webkit-box-shadow: 0px 0px 19px 16px rgba(52,250,255,0.45); 
 box-shadow: 0px 0px 19px 16px rgba(52,250,255,0.45);
 }
+.button{
+ padding-top: 50px;
 
+}
 
 .video-container iframe {
   position: absolute;
@@ -258,8 +261,6 @@ box-shadow: 0px 0px 19px 16px rgba(52,250,255,0.45);
 }
 
 
-
-
   .button-49,
   .button-49:after {
     width: 250px;
@@ -274,7 +275,7 @@ box-shadow: 0px 0px 19px 16px rgba(52,250,255,0.45);
     outline: transparent;
     position: relative;
     user-select: none;
-    padding-top: 2PX;
+    padding-top: 0PX;
     transition: background-color 0.3s, color 0.3s;
   }
 
@@ -489,9 +490,7 @@ box-shadow: 0px 0px 19px 16px rgba(52,250,255,0.45);
 }
   /* Responsive Design */
   @media screen and (max-width: 768px) {
-    .home, .program, .testimonials, .contactus {
-        /* padding: 20px; */
-    }
+   
 
     .home h1 {
         font-size: 2em;
